@@ -325,8 +325,8 @@ section.services .container article.service-col .info.info-features img {
     grid-template-columns: 1fr;
   }
   section.services .container article.service-col .info > *{
-    grid-column-start: auto;
-    grid-column-end: auto;
+    grid-column-start: auto !important;
+    grid-column-end: auto !important;
     text-align: center;
     margin: auto;
   }
