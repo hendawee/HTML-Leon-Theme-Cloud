@@ -320,6 +320,17 @@ section.services .container article.service-col .info.info-features img {
     display: none;
   }
 }
+@media (max-width: 769px) {
+  section.services .container article.service-col .info{
+    grid-template-columns: 1fr;
+  }
+  section.services .container article.service-col .info > *{
+    grid-column-start: auto;
+    grid-column-end: auto;
+    text-align: center;
+    margin: auto;
+  }
+}
 
 /* End Services  */
 
