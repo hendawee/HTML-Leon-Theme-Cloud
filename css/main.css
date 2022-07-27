@@ -159,10 +159,10 @@ header#header .container .navbar ul.nav li:not(:last-child) a {
   position: absolute;
   top: 50%;
   left: 50%;
-  max-width: 360px;
+  max-width: 100%;
   text-align: center;
   transform: translate(-50%, -50%);
-  width: 100%;
+  width: 360px;
 }
 .jumptron h1 {
   margin: 0;
