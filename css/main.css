@@ -3,9 +3,11 @@
 :root {
   --primary-color: #10cab7;
   --secondary-color: #2c4755;
+  --text-pargraph-color: #4d4c4c;
   --shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   --section-bg: #fafafa;
   --padding-space: 7.5rem;
+  
 }
 * {
   box-sizing: border-box;
@@ -209,6 +211,7 @@ section.features .features-col p {
   font-size: 2rem;
   max-width: 380px;
   line-height: 3rem;
+  color: var(--text-pargraph-color);
 }
 /* End Features  */
 /* Start Services  */
@@ -290,8 +293,9 @@ section.services .container article.service-col .info p {
   grid-column-start: 2;
   grid-column-end: 3;
   font-size: 2rem;
-  color: #4d4c4c;
+  color: var(--text-pargraph-color);
   letter-spacing: -1px;
+  line-height: 3rem;
 }
 
 section.services .container article.service-col .info.info-features {
@@ -377,8 +381,9 @@ section.portfolio .container article.portfolio-col section.info h3 {
 
 section.portfolio .container article.portfolio-col section.info p {
   font-size: 2rem;
-  color: #4d4c4c;
+  color: var(--text-pargraph-color);
   letter-spacing: -1px;
+  line-height: 3rem;
 }
 
 /* End Portfolio  */
